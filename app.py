@@ -6,7 +6,7 @@ import time
 app = Flask(__name__)
 
 # Load from environment variables
-GITHUB_REPO = os.getenv("GITHUB_REPO", "fallute/potato-scraper")
+GITHUB_REPO = os.getenv("GITHUB_REPO", "HyfarmAgri/potato-scraper")
 GITHUB_WORKFLOW = os.getenv("GITHUB_WORKFLOW", "scrape.yml")
 GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "master")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
